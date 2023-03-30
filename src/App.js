@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 function RecipeApp() {
   const [recipes, setRecipes] = useState([
@@ -35,12 +36,12 @@ function RecipeApp() {
       <ul>
         {recipes.map((recipe, index) => (
           <li key={index}>
-            <h2>{recipe.name}</h2>
+            <h3>{recipe.name}</h3>
             <p>Ingredients: {recipe.ingredients.join(", ")}</p>
           </li>
         ))}
       </ul>
-      <h2>Add a New Recipe</h2>
+      <h2>Add a New Recipe Below</h2>
       <label htmlFor="new-recipe-name">Name:</label>
       <input type="text" id="new-recipe-name" value={newRecipeName} onChange={handleNewRecipeNameChange} />
       <br />

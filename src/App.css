@@ -1,38 +1,56 @@
-.App {
+/* Center the h1 element */
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+/* Style the ul element */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style the li elements */
+li {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style the h2 elements */
+h2 {
+  margin: 0;
+ 
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Style the label elements */
+label {
+  display: block;
+  margin-top: 10px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+/* Style the input elements */
+input {
+  margin-bottom: 10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the button element */
+button {
+  display: block;
+  margin-top: 10px;
+  background-color: blue;
+  color: white ;
 }
