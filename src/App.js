@@ -41,6 +41,7 @@ function RecipeApp() {
           </li>
         ))}
       </ul>
+      <div style={{ marginLeft: 10 }}>
       <h2>Add a New Recipe Below</h2>
       <label htmlFor="new-recipe-name">Name:</label>
       <input type="text" id="new-recipe-name" value={newRecipeName} onChange={handleNewRecipeNameChange} />
@@ -49,6 +50,7 @@ function RecipeApp() {
       <input type="text" id="new-recipe-ingredients" value={newRecipeIngredients} onChange={handleNewRecipeIngredientsChange} />
       <br />
       <button onClick={handleAddRecipe}>Add Recipe</button>
+      </div>
     </div>
   );
 }
